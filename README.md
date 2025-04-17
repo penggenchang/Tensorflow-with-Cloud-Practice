@@ -1,21 +1,22 @@
-# TensorFlow with Cloud Practice 🧠☁️  
+# TensorFlow with Cloud Practice 
 CIFAR-10 Convolutional Neural Network (CNN) — trained on both **AWS EC2** and **Azure Virtual Machines** using TensorFlow.
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
-This project demonstrates how to:
+This self-implemted project demonstrates how to:
 - Build and train a CNN for image classification on the CIFAR-10 dataset
-- Run training on **cloud CPU/GPU environments** (AWS EC2, Azure VM)
+- Run training on **cloud CPU/GPU environments** (AWS EC2, Azure VM) with compatability
 - Track metrics using both **CSVLogger** and **TensorBoard**
 - Save trained models in `.h5` format
+- Contain with Docker for future useage
 
 ---
 
-## 🏗️ Project Structure
+## Project Structure
 pythonProject/ ├── models/ │ └── cnn_model.py ├── data/ │ └── loader.py ├── training/ │ └── train.py ├── logs/ │ ├── training_log.csv │ └── TensorBoard event files ├── cnn_cifar10_model.h5 └── requirements.txt
-## 🚀 How to Run
+## How to Run
 
 ### 1. Clone the repo
 
